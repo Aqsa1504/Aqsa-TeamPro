@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 350px;
+    background: #1e1e1e; /* Dark grey background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Headers */
+h1, h2 {
+    color: #ffcc00; /* Golden yellow headers */
+}
+
+/* Product List & Cart */
+#product-list, #cart-items {
+    margin-top: 10px;
+}
+
+/* Product Item */
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #292929; /* Slightly lighter grey */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Add to Cart Button */
+button{
+    background: linear-gradient(45deg, #8e2de2, #4a00e0); /* Purple gradient */
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.5px;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #3700b3, #23036a); /* Darker purple gradient */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Cart Total Section */
+#cart-total {
+    margin-top: 20px;
+    padding: 10px;
+    background: #292929;
+    border-radius: 5px;
+}
+
+/* Checkout Button */
+#checkout-btn {
+    background-color: #03dac6; /* Teal */
+    color: black;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#checkout-btn:hover {
+    background-color: #018786; /* Darker teal */
+}
+
+/* Hide total section if cart is empty */
+.hidden {
+    display: none;
+}
+
